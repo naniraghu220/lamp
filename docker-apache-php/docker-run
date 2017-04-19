@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker run -tid -p 80:80  var/www/html --name appserver --link mysqlserver:mysqldb apcahe-php5
